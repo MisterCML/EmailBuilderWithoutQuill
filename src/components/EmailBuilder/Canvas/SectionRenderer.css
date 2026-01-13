@@ -1,0 +1,22 @@
+[data-section="true"] {
+  width: 100%;
+}
+
+.outer {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.containerWrapper {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.columnContainer {
+  vertical-align: top;
+  text-align: left;
+}
+
+.columnContainer.inner {
+  padding: 10px;
+}

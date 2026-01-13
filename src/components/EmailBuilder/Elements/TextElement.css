@@ -1,0 +1,77 @@
+.text-element {
+  min-height: 20px;
+  outline: none;
+  word-wrap: break-word;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+}
+
+.text-element-readonly {
+  cursor: default;
+}
+
+.text-element-editable {
+  cursor: text;
+  border: 2px solid #0078d4;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.text-element-editable:focus {
+  outline: none;
+  border-color: #0078d4;
+}
+
+.text-element p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+}
+
+.text-element h1 {
+  color: #000;
+  font-size: 34px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element li {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: inherit;
+  font-weight: normal;
+  text-align: left;
+}

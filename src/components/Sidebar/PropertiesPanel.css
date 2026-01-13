@@ -1,0 +1,70 @@
+.properties-panel {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.no-selection {
+  text-align: center;
+  color: #605e5c;
+  padding: 40px 20px;
+}
+
+.no-selection p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.properties-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.property-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.property-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #323130;
+}
+
+.align-buttons {
+  display: flex;
+  gap: 4px;
+  border: 1px solid #e1dfdd;
+  border-radius: 4px;
+  padding: 2px;
+  background-color: #fafafa;
+}
+
+.align-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #605e5c;
+  transition: all 0.2s ease;
+}
+
+.align-button:hover {
+  background-color: #edebe9;
+  color: #323130;
+}
+
+.align-button.active {
+  background-color: #0078d4;
+  color: #ffffff;
+}
+
+.align-button.active:hover {
+  background-color: #106ebe;
+}

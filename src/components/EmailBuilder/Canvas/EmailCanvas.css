@@ -1,0 +1,30 @@
+.email-canvas {
+  flex: 1;
+  overflow-y: auto;
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+.canvas-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+.empty-canvas {
+  padding: 60px 40px;
+  text-align: center;
+  color: #605e5c;
+}
+
+.empty-canvas p {
+  margin: 0;
+  font-size: 14px;
+}
+
+[data-layout="true"] {
+  margin: 0 auto;
+  background-color: #fff;
+}

@@ -1,0 +1,149 @@
+.image-element {
+  text-align: center;
+  position: relative;
+}
+
+.image-element img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-element a {
+  display: inline-block;
+}
+
+/* Placeholder样式 */
+.image-placeholder {
+  min-height: 200px;
+  border: 2px dashed #d1d1d1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fafafa;
+  transition: all 0.2s ease;
+}
+
+.image-placeholder:hover {
+  border-color: #0078d4;
+  background-color: #f0f8ff;
+}
+
+.placeholder-content {
+  text-align: center;
+  color: #605e5c;
+}
+
+.placeholder-content svg {
+  margin-bottom: 8px;
+  color: #8a8886;
+}
+
+.placeholder-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* 图片包装器 */
+.image-wrapper {
+  position: relative;
+}
+
+/* 调整大小控制点 */
+.resize-handle {
+  position: absolute;
+  background-color: #0078d4;
+  border: 2px solid #ffffff;
+  z-index: 100;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* 四个角的控制点 - 小方块，用于同时调整宽度和高度 */
+.resize-handle-top-left {
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  cursor: nwse-resize;
+  border-radius: 2px;
+}
+
+.resize-handle-top-right {
+  top: -4px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  cursor: nesw-resize;
+  border-radius: 2px;
+}
+
+.resize-handle-bottom-left {
+  bottom: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  cursor: nesw-resize;
+  border-radius: 2px;
+}
+
+.resize-handle-bottom-right {
+  bottom: -4px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  cursor: nwse-resize;
+  border-radius: 2px;
+}
+
+/* 四个边的控制条 - 用于单独调整宽度或高度 */
+.resize-handle-top {
+  top: -4px;
+  left: 50%;
+  width: 24px;
+  height: 6px;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+  border-radius: 3px;
+}
+
+.resize-handle-right {
+  right: -4px;
+  top: 50%;
+  width: 6px;
+  height: 24px;
+  transform: translateY(-50%);
+  cursor: ew-resize;
+  border-radius: 3px;
+}
+
+.resize-handle-bottom {
+  bottom: -4px;
+  left: 50%;
+  width: 24px;
+  height: 6px;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+  border-radius: 3px;
+}
+
+.resize-handle-left {
+  left: -4px;
+  top: 50%;
+  width: 6px;
+  height: 24px;
+  transform: translateY(-50%);
+  cursor: ew-resize;
+  border-radius: 3px;
+}
+
+.resize-handle:hover {
+  background-color: #106ebe;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.resize-handle:active {
+  background-color: #005a9e;
+}

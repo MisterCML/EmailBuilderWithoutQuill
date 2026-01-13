@@ -1,0 +1,112 @@
+.elements-panel {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.panel-section {
+  margin-bottom: 32px;
+}
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #323130;
+  margin: 0 0 12px 0;
+}
+
+.elements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.element-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 8px;
+  background: white;
+  border: 1px solid #e1dfdd;
+  border-radius: 4px;
+  cursor: grab;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.element-card:hover {
+  background: #f3f2f1;
+  border-color: #d2d0ce;
+}
+
+.element-card:active {
+  cursor: grabbing;
+}
+
+.element-card.dragging {
+  opacity: 0.5;
+}
+
+.element-card svg {
+  width: 24px;
+  height: 24px;
+  color: #0078d4;
+}
+
+.element-card span {
+  font-size: 11px;
+  color: #323130;
+  text-align: center;
+  word-break: break-word;
+}
+
+.layouts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.layout-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 8px;
+  background: white;
+  border: 1px solid #e1dfdd;
+  border-radius: 4px;
+  cursor: grab;
+  transition: all 0.15s ease;
+}
+
+.layout-card:hover {
+  background: #f3f2f1;
+  border-color: #d2d0ce;
+}
+
+.layout-card:active {
+  cursor: grabbing;
+}
+
+.layout-card.dragging {
+  opacity: 0.5;
+}
+
+.layout-preview {
+  display: flex;
+  gap: 3px;
+  height: 30px;
+}
+
+.layout-column {
+  background: #e1dfdd;
+  border-radius: 2px;
+}
+
+.layout-card span {
+  font-size: 10px;
+  color: #323130;
+  text-align: center;
+  word-break: break-word;
+  line-height: 1.2;
+}

@@ -1,0 +1,12 @@
+.button-element {
+  padding: 10px 0;
+}
+
+.email-button {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.email-button:hover {
+  opacity: 0.9;
+}
